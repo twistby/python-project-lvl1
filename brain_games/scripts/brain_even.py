@@ -5,6 +5,7 @@ import prompt
 
 
 def game_body():
+    """Game circle. # noqa: DAR201."""
     for _ in range(3):
         current_number = random.randint(1, 1000)
         right_answer = 'yes' if current_number % 2 == 0 else 'no'
@@ -17,7 +18,6 @@ def game_body():
             msg2 = " was '{r}'.".format(r=right_answer)
             print(msg1 + msg2)
             return False
-
     return True
 
 
