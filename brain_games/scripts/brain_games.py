@@ -1,10 +1,13 @@
-#!/usr/bin/env python3
+"""Brain game module."""
+from brain_games import cli
 
-import brain_games.cli
 
 def main():
+    """Start of programm."""
     print('Welcome to the Brain Games!')
-    brain_games.cli.welcome_user()
+    cli.welcome_user()
+
 
 if __name__ == '__main__':
+
     main()
