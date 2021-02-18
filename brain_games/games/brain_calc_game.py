@@ -1,10 +1,10 @@
-"""Brain even script."""
+"""Brain calc scriptmodule."""
 import random
 
 from brain_games import cli, constants
 
 
-def game_body():
+def game():
     """Game circle. Return True if win, False if lose."""
     cli.pr_str('What is the result of the expression?')
     for _ in range(constants.NUMBER_OF_TRY):
@@ -36,12 +36,8 @@ def get_operation(f_number, s_number):
     return right_answer, op
 
 
-def main():
-    """Start of script."""
+def start_game():
+    """Start the game."""
     cli.welcome_user()
     user_name = cli.ask_user_name()
-    cli.end_game(user_name, game_body())
-
-
-if __name__ == '__main__':
-    main()
+    cli.end_game(user_name, game())
