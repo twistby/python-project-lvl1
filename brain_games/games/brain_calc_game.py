@@ -1,4 +1,4 @@
-"""Brain calc scriptmodule."""
+"""Brain calc module."""
 import random
 
 from brain_games import cli, constants
