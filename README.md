@@ -6,3 +6,5 @@
 [![Flake8 actions status](https://github.com/twistby/python-project-lvl1/workflows/flake8%20Lint/badge.svg)](https://github.com/twistby/python-project-lvl1/actions)
 
 https://asciinema.org/a/yfFnJNgeEp46orKcPuGBSLy9G
+
+https://asciinema.org/a/LOlJu8iF486Icao1HtzgEon22
