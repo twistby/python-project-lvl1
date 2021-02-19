@@ -7,7 +7,7 @@ packages = [
   { include = "brain_games" },
 ]
 classifiers = [
-  TOPIC :: EDUCATION :: TESTING
+  "Topic :: Education :: Testing"
 ]
 repository = [
   https://github.com/twistby/python-project-lvl1
