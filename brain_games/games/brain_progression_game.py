@@ -14,14 +14,15 @@ def get_data():
     pr_first_number = random.randint(1, constants.GAME_PROGRESSION_MAX_START_N)
     pr_leght = random.randint(5, constants.GAME_PROGRESSION_MAX_LEGHT)
     pr_step = random.randint(1, constants.GAME_PROGRESSION_MAX_STEP)
-    lost_number_pos = random.randint(2, pr_leght)
+    lost_number_pos = random.randint(0, pr_leght - 1)
     pr = []
+    right_answer = ''
     for _ in range(pr_leght):
         if _ == lost_number_pos:
             pr.append('..')
-            right_answer = pr_first_number
+            right_answer = str(pr_first_number)
         else:
             pr.append(pr_first_number)
         pr_first_number += pr_step
     question = ' '.join([str(elem) for elem in pr])
-    return question, str(right_answer)
+    return question, right_answer
