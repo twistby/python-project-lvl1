@@ -1,15 +1,22 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.17"
-description = ""
+description = "Brain games"
 authors = ["twistby <pref@outlook.com>"]
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+  TOPIC :: EDUCATION :: TESTING
+]
+repository = [
+  https://github.com/twistby/python-project-lvl1
 ]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 prompt = "^0.4.1"
+
 
 [tool.poetry.dev-dependencies]
 wemake-python-styleguide = "^0.15.0"
