@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hexlet-check"
+name = "hexlet-code"
 version = "0.2.1"
 description = "Brain games"
 authors = ["twistby <pref@outlook.com>"]
