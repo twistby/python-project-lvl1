@@ -13,4 +13,4 @@ def get_data():
     """Return number and is it even."""
     number = random.randint(1, MAX_RANGE)
     right_answer = 'yes' if number % 2 == 0 else 'no'
-    return str(number), str(right_answer)
+    return str(number), right_answer
