@@ -12,8 +12,3 @@ def get_user_name():
     name = prompt.string('May I have your name? ')
     print('Hello, {user_name}!'.format(user_name=name))
     return name
-
-
-def get_answer(question):
-    """Get user answer."""
-    return prompt.string(question)
