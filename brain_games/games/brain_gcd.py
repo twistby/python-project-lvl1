@@ -1,7 +1,7 @@
 """Brain gcd module."""
 import random
 
-RULES = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 MIN_FIRST_NUMBER = 1
 MAX_FIRST_NUMBER = 1000
 MIN_SECOND_NUMBER = 1

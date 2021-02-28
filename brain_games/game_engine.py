@@ -9,7 +9,7 @@ def play(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
     print('Hello, {user}!'.format(user=user_name))
-    print(game.RULES)
+    print(game.DESCRIPTION)
     for _ in range(ANSWERS_TO_WIN):
         question, right_answer = game.get_question_and_answer()
         print('Question: {q}'.format(q=question))

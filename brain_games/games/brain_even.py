@@ -1,7 +1,7 @@
 """Brain even module."""
 import random
 
-RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 MIN_NUMBER = 1
 MAX_NUMBER = 100
 

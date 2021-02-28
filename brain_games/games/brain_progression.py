@@ -1,7 +1,7 @@
 """Brain progression module."""
 import random
 
-RULES = 'What number is missing in the progression?'
+DESCRIPTION = 'What number is missing in the progression?'
 MIN_START_NUMBER = 1
 MAX_START_NUMBER = 15
 MIN_PROGRESSION_LENGTH = 5
